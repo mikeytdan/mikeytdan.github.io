@@ -257,13 +257,6 @@ textarea {
     clear: both;
 }
 
-.grid {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, 170px);
-    margin-bottom: 10px;
-}
-
 .work {
     width: 270px;
     overflow: auto;
