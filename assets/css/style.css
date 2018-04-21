@@ -134,6 +134,7 @@ header {
     z-index: 10;
 }
 
+
 body {
     font-size: 18px;
     line-height: 34px;
@@ -259,7 +260,6 @@ textarea {
 
 .work {
     width: 270px;
-    overflow: auto;
     position: relative;
     float: left;
     margin: 0px 20px 20px 0;
@@ -272,5 +272,5 @@ textarea {
     width: 100%;
     padding: 10px 0;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
 }
