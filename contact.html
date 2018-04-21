@@ -12,16 +12,16 @@
         
         <header>
             <div class="header-content container">
-                <div id="name-title">
-                    <h1>Michael Daniels</h1>
-                </div>
-                <div class="navigation" id="navigation">
-                    <ul>
-                        <li><a id="navigation-title" href="index.html">About</a></li>
-                        <li><a id="navigation-title" href="portfolio.html">Portfolio</a></li>
-                        <li><a id="navigation-title" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+                <a href="index.html">
+                    <div id="name-title">
+                        <h1>Michael Daniels</h1>
+                    </div>
+                </a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
             </div>
         </header>
 
@@ -31,11 +31,11 @@
             <div class="clearfix">
                 <form>
                     <div class="input-title">Name</div>
-                    <input class="input-field input-style" type="text" placeholder="John Smith" name="name" autofocus>
+                    <input class="input-field input-style" type="text" placeholder="John Smith" required="required" name="name" autocapitalize="words" autofocus>
                     <div class="input-title">Email</div>
-                    <input class="input-field input-style" type="text" placeholder="example@gmail.com" name="email"><br>
+                    <input class="input-field input-style" type="email" placeholder="example@gmail.com" required="required" name="email">
                     <div class="input-field input-title">Message</div>
-                    <textarea class="input-style" name="message" rows="10"></textarea>
+                    <textarea class="input-style" name="message" required="required" rows="10"></textarea>
                     <input id="submit-button" type="submit" value="Submit">
                 </form>
             </div>
